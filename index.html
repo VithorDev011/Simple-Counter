@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>contador</title>
+    <link rel="shortcut icon" href="Icon.png" type="image/x-icon">
+    <link rel="stylesheet" href="/assets/style.css">
+</head>
+<body>
+    <h1>
+        Contador
+    </h1>
+    <p>
+        clique nos botões para alterar o valor.
+    </p>
+    <div id="contador">
+        <p id="currentNumber">0</p>
+        <div id="buttons">
+            <button name="subtrair" onclick="diminuir()" id="diminuir">-</button>
+            <button name="limpar" onclick="limpar()" class="csscenter">
+                <img src="borracha.png" alt="" id="limparcss">
+            </button>
+            <button name="adicionar" onclick="aumentar()" id="aumentar">+</button>           
+        </div>
+    </div>
+    <script src="/assets/script.js"></script>
+</body>
+</html>
