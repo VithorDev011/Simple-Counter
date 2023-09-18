@@ -1,6 +1,6 @@
 # Contador Simples
 
-##### Por: [@vitiin_kkj](https://github.com/V1TH0R)
+##### Por: [@VithorDev011](https://github.com/VithorDev011)
 
 Este projeto foi feito durante o curso [Introdução ao JavaScript](https://web.dio.me/course/introducao-ao-javascript/learning/ecf563b8-92b8-4061-95f3-66e32b1014cf) oferecido pela [DIO](https://web.dio.me).
 
