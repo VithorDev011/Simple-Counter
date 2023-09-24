@@ -1,6 +1,12 @@
 let numeroatualspan = document.getElementById("currentNumber");
 let currentNumber = 0;
 
+document.addEventListener('touchstart', function(event) {
+    if (event.touches.length > 1) {
+        event.preventDefault();
+    }
+}, { passive: false });
+
 function resetColor() {
     if (currentNumber == 0) {
         document.getElementById("currentNumber").style.color = "black";
