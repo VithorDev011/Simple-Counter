@@ -7,6 +7,21 @@ document.addEventListener('touchstart', function(event) {
     }
 }, { passive: false });
 
+document.getElementById("subtrair").addEventListener("click", function() {
+    // Bloqueia o zoom do botão subtrair
+    document.querySelector("meta[name=viewport]").setAttribute("content", "width=device-width, initial-scale=1.0, user-scalable=no");
+});
+
+document.getElementById("limpar").addEventListener("click", function() {
+    // Bloqueia o zoom do botão limpar
+    document.querySelector("meta[name=viewport]").setAttribute("content", "width=device-width, initial-scale=1.0, user-scalable=no");
+});
+
+document.getElementById("adicionar").addEventListener("click", function() {
+    // Bloqueia o zoom do botão adicionar
+    document.querySelector("meta[name=viewport]").setAttribute("content", "width=device-width, initial-scale=1.0, user-scalable=no");
+});
+
 function resetColor() {
     if (currentNumber == 0) {
         document.getElementById("currentNumber").style.color = "black";
